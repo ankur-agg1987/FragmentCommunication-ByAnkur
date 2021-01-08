@@ -17,5 +17,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:id="@+id/removeFragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Fragment A"
+        android:onClick="removefragment_a"/>
+
+    <Button
+        android:id="@+id/removeFragmentB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Fragment B"
+        android:onClick="removefragment_b"/>
+
+    <Button
+        android:id="@+id/addFragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD Fragment A"
+        android:onClick="addfragment_a"/>
+
+    <Button
+        android:id="@+id/addFragmentB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD Fragment B"
+        android:onClick="addfragment_b"/>
 
 </LinearLayout>
